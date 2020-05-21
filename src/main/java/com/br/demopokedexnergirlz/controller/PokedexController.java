@@ -23,7 +23,7 @@ import reactor.core.publisher.Mono;
 import reactor.util.function.Tuple2;
 import java.util.concurrent.TimeUnit;
 
-@RestController
+//@RestController
 public class PokedexController {
 
 
