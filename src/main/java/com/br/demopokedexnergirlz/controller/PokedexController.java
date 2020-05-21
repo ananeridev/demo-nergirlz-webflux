@@ -53,7 +53,7 @@ public class PokedexController {
     @GetMapping(value="/pokedex/events", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public  Flux<Tuple2<Long, Pokedex>> getPokedexByEvents() {
 
-        Flux<Long> intervalo = Flux.interval(Duration.ofSeconds(10));
+        Flux<Long> intervalo = Flux.interval(Duration.ofSeconds(3));
         Flux<Pokedex> events = service.findAll();
         System.out.println("TEM UM EVENTS PASSANDO AQUIIIIIIIII");
         return Flux.zip(intervalo, events);
