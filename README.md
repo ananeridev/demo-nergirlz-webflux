@@ -14,11 +14,11 @@ link da talk: https://bit.ly/nerdgirlz-pokedex
 
 :arrow_right: Endoints:
 
-http://localhost:8080/pokemons
+http://localhost:8080/pokedex
 
-http://localhost:8080/pokemons/events
+http://localhost:8080/pokedex/events
 
-http://localhost:8080/pokemons/{id}
+http://localhost:8080/pokedex/{id}
 
 Esta RestAPI esta hospedada no Heroku, você consegue acessar em: https://mighty-journey-86009.herokuapp.com/
 
